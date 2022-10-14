@@ -1,0 +1,24 @@
+Source: node-path-root-regex
+Section: web
+Priority: optional
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org>
+Build-Depends:
+ debhelper (>= 9)
+ , dh-buildinfo
+ , nodejs
+ , mocha
+Standards-Version: 3.9.8
+Homepage: https://github.com/regexhq/path-root-regex
+Vcs-Git: https://anonscm.debian.org/git/pkg-javascript/node-path-root-regex.git
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-javascript/node-path-root-regex.git
+
+Package: node-path-root-regex
+Architecture: all
+Depends:
+ ${misc:Depends}
+ , nodejs
+Description: regex for the root of a posix or windows filepath
+ Regular expression for getting the root of a posix or windows filepath.
+ .
+ Node.js is an event-based server-side JavaScript engine.

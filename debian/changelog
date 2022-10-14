@@ -1,0 +1,12 @@
+node-path-root-regex (0.1.2-1.1) unstable; urgency=medium
+
+  * Non maintainer upload by the Reproducible Builds team.
+  * No source change upload to rebuild on buildd with .buildinfo files.
+
+ -- Holger Levsen <holger@debian.org>  Mon, 28 Dec 2020 23:40:37 +0100
+
+node-path-root-regex (0.1.2-1) unstable; urgency=low
+
+  * Initial release (Closes: #846910)
+
+ -- Pirate Praveen <praveen@debian.org>  Sun, 04 Dec 2016 15:21:35 +0530
