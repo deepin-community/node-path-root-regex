@@ -1,5 +1,0 @@
-Tests: require
-Depends: node-path-root-regex
-
-Test-Command: mocha -R spec
-Depends: @, mocha
